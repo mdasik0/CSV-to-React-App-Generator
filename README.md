@@ -39,7 +39,7 @@ A Node.js script that automatically generates individual React applications from
 
 ## 📝 CSV Format
 
-Your `website.csv` should have the following format:
+Your `websites.csv` should have the following format:
 
 ```csv
 domain,title,description,phone,address
@@ -187,9 +187,9 @@ In each generated app directory:
 
 ## ❓ Troubleshooting
 
-### "website.csv not found" error
-- Ensure `website.csv` exists in the project root
-- Check the file name (it should be `website.csv`, not `websites.csv`)
+### "websites.csv not found" error
+- Ensure `websites.csv` exists in the project root
+- Check the file name (it should be `websites.csv`, not `website.csv`)
 
 ### Generated app won't start
 - Make sure you ran `npm install` in the app folder first
